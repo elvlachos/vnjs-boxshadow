@@ -6,21 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Box Shadow Tool</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <div class="container">
-        <label>y-axis offset</label>
-        <input type="range" class="vertical-offset" min="0" max="100" value="5">
-        <label>x-axis offset</label>
+        <label>X AXIS</label>
         <input type="range" class="horizontal-offset" min="0" max="100" value="5">
-        <label>blur-radius</label>
+        <label>Y AXIS</label>
+        <input type="range" class="vertical-offset" min="0" max="100" value="5">
+        <label>BLUR RADIUS</label>
         <input type="range" class="blur-radius" min="0" max="100" value="5">
-        <label>blur-spread</label>
-        <input type="range" class="blur-spread min=" 0" max="100" value="5">
-        <label>color</label>
+        <label>BLUR SPREAD</label>
+        <input type="range" class="blur-spread" min="0" max="100" value="5">
+        <label>COLOR</label>
         <input type="color" class="colorpicker" value="#555">
         <input type="text" class="css-output" readonly onclick="this.select()">
+
+        <script src="script.js"></script>
     </div>
 </body>
 
